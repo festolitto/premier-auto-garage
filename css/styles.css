@@ -152,12 +152,24 @@ html{overflow-x: hidden !important;}
   position: absolute;
   font-family: 'Merienda', cursive;
 }
-.btn-tag{
-  background-color: #00A14A;
-  padding: 8px 20px;
+.btn-tag-nav{
+  background-color: #f59730;
+  padding: 8px;
   border: none;
   color: #ffffff;
+  margin-top: 15px;
+  font-family: 'Merienda', cursive;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.btn-tag{
+  background-color: #00A14A;
+  padding: 8px;
+  border: none;
+  color: #ffffff;
+  margin-top: 15px;
   font-size: 20px;
+  font-family: 'Merienda', cursive;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .item{
   margin-bottom: 10px;
@@ -253,18 +265,19 @@ input[type=submit] {
   background-color: #2e6da4;
   color: #ffffff;
   border: none;
+  height: 50px;
+  font-size: 20px;
 }
 .form-control{
   border: 1px #a3c4e4 solid;
-  width: 70%;
-  margin-left: 15%;
+  height: 40px;
 }
 textarea{
   min-height: 200px;
 }
 form{
-  text-align: center;
   font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
 }
 /* end modal */
 /* end content */
