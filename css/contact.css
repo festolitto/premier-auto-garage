@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://letterhub.com/wp-content/uploads/2018/08/automotive-sector-wp.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    background-size: cover;
+    position: relative;
+}
+.form {
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    max-width: 500px !important;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+
+input[type=text], input[type=number], input[type=email] {
+    background-color: #ffffff;
+    border: 1px #a3c4e4 solid;
+    color: #333333;
+    width: 90%;
+    height: 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: auto;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+.submit{
+    background-color: #2e6da4;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    width: 90%;
+    border: 1px #a3c4e4 solid;
+}
+
+@media only screen and (max-device-width:1020px){
+    .form {max-width: 400px !important; margin: 0% !important;}
+}

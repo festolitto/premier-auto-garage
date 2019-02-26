@@ -16,6 +16,7 @@
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     
 </head>
 <body>
@@ -79,7 +80,7 @@
       <div class="slider1">
       <div class="carousel-caption">
           <h1 class="tag">Autobody Repairs</h1>
-          <a href=""><button class="btn-tag" role="button">Request Service</button></a>
+         <button class="btn-tag" role="button" data-toggle="modal" data-target="#myModal">Request Service</button>
       </div> 
       </div>     
     </div>
@@ -88,7 +89,7 @@
       <div class="slider2">
       <div class="carousel-caption">
           <h1 class="tag">Autobody Painting</h1>
-          <a href=""><button class="btn-tag" role="button">Request Service</button></a>
+          <button class="btn-tag" role="button" data-toggle="modal" data-target="#myModal">Request Service</button>
       </div>   
       </div>   
     </div>
@@ -97,7 +98,7 @@
       <div class="slider3">
       <div class="carousel-caption">
         <h1 class="tag">Mechanical Repairs</h1>
-        <a href=""><button class="btn-tag" role="button">Request Service</button></a>
+        <button class="btn-tag" role="button" data-toggle="modal" data-target="#myModal">Request Service</button>
       </div>      
     </div>
     </div>
@@ -216,6 +217,44 @@
 		<p>&copy; 2019 Premier Auto Garage</p>
 </div>
 <!--End of the copyright-->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Request Service</h4>
+        </div>
+        <div class="modal-body">
+          <form action="" method="POST">
+            <label>Select Service</label>
+            <select class="form-control" id="sel1">
+              <option>Autobody Painting</option>
+              <option>Autobody Repairs</option>
+              <option>Mechanical Repair</option>
+            </select><br>
+            <label>Your Name</label><br>
+            <input type="text" class="form-control" name="name" required><br><br>
+            <label>Phone</label><br>
+            <input type="number" class="form-control" name="name" required><br><br>
+            <label>Email</label><br>
+            <input type="email" class="form-control" name="name" required><br><br>
+            <label>Service Description</label><br>
+            <textarea class="form-control" placeholder="Short description about the service you need."></textarea> <br><br>
+            <input type="submit" class="form-control" value="SUBMIT" required>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
 <!--JQUERY-->
 
