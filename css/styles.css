@@ -98,10 +98,10 @@ html{overflow-x: hidden !important;}
 /* slider */
 .carousel-inner{
   padding:0%;
-  height: 80vh;
+  height: 60vh;
 }
 .slider1{
-  height: 80vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   margin: 0%;
@@ -117,7 +117,7 @@ html{overflow-x: hidden !important;}
   filter: brightness(80%);
 }
 .slider2{
-  height: 80vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   margin: 0%;
@@ -133,7 +133,7 @@ html{overflow-x: hidden !important;}
   filter: brightness(80%);
 }
 .slider3{
-  height: 80vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   margin: 0%;
@@ -148,7 +148,7 @@ html{overflow-x: hidden !important;}
   background-size: cover;
 }
 .carousel-caption{
-  margin-bottom: 25vh;
+  margin-bottom: 15vh;
   position: absolute;
   font-family: 'Merienda', cursive;
 }
@@ -181,8 +181,8 @@ html{overflow-x: hidden !important;}
 
 /* content */
 .welcome{
-  background-color: #000000;
-  color: #cccccc;
+  background-color: #f59730;
+  color: #ffffff;
   padding: 5%;
   text-align: center;
   font-family: 'Raleway', sans-serif
@@ -252,6 +252,7 @@ html{overflow-x: hidden !important;}
 .holder{
   padding: 5%;
   text-align: left;
+  font-size: 16px;
 }
 .p-holder{
   text-align: left; 
