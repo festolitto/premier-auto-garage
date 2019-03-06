@@ -261,6 +261,34 @@ html{overflow-x: hidden !important;}
   margin-right: 20%;
   margin-bottom: 50px;
 }
+.before{
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 10vh;
+  margin-top: -5vh;
+  background-color: #000000;
+  position: relative;
+  margin-bottom: 10vh;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 2.5vh;
+}
+.after{
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 10vh;
+  margin-top: -5vh;
+  background-color: #000000;
+  position: relative;
+  margin-bottom: 10vh;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 2.5vh;
+}
 /* modal */
 input[type=submit] {
   background-color: #2e6da4;
