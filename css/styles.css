@@ -1,5 +1,6 @@
 body{
-	 background: #ffffff;
+   background: #ffffff;
+   
 }
 
 /*preventing overflow*/
@@ -209,6 +210,7 @@ html{overflow-x: hidden !important;}
   padding: 8px 20px;
   border: none;
   color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24)
 }
 .like{
   background-image: url('http://4everstatic.com/pictures/cars/artistic/audi-a7,-lights-192463.jpg');
@@ -263,8 +265,8 @@ html{overflow-x: hidden !important;}
 }
 .before{
   width: 80%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  /* margin-right: 5%; */
   height: 10vh;
   margin-top: -5vh;
   background-color: #000000;
@@ -277,8 +279,8 @@ html{overflow-x: hidden !important;}
 }
 .after{
   width: 80%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  /* margin-right: 5%; */
   height: 10vh;
   margin-top: -5vh;
   background-color: #000000;
