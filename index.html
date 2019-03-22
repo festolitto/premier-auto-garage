@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
     
 </head>
 <body>
@@ -27,7 +28,7 @@
 <div class="top-bar">
   <div class="email">
     <span ><span class="glyphicon glyphicon-envelope"></span> info@brystarautobody.co.ke</span>
-    <span style="margin-left:30px;"><span class="glyphicon glyphicon-earphone"></span> +254700000000</span>
+    <span style="margin-left:30px;"><span class="glyphicon glyphicon-earphone"></span> +254-705 - 939- 524</span>
   </div>
     <span class="top-social">
         <i class="social fa fa-facebook" aria-hidden="true" style="color:#ffffff;"></i>
@@ -45,7 +46,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                        
             </button>
-            <a class="navbar-brand" href="#"><img src="images/logo.JPG" class="logo"/></a>
+            <a href="#"><img src="images/logo.JPG" class="logo"/></a>
+            <a class="navbar-brand" href="#"><b>Brystar AutoBody Experts</b></a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -64,9 +66,7 @@
                 </ul>
               </li>
               <li><a href="contact.html">Contact</a></li>
-              <li>
-                <button class="btn-tag-nav" role="button" data-toggle="modal" data-target="#myModal">Request a Service</button>
-              </li>
+              <a href="https://brystarautobody.home.blog"><button class="btn-tag-nav" role="button">Blog</button></a>
             </ul>
           </div>
         </div>
@@ -130,6 +130,7 @@
     <h1>Welcome to Brystar Auto Body</h1>
     <p>As the nation’s leading collision repair provider, your complete satisfaction isn’t just a goal.<br>
        It’s what drives us. That’s why everything we do is geared toward restoring the rhythm of your life®.</p>
+       <h1>+254-705 - 939- 524</h1>
   </div>
 <div id="about" class="about section-padded">
     <div class="container">
@@ -230,7 +231,7 @@
           <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
               <p style="font-weight: bold;">Contact:</p>
               <p>info@brystarautobody.co.ke</p>
-              <p>+254700000000</p>
+              <p>+254-705 - 939- 524</p>
           </div>
           <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
               <p style="font-weight: bold;">Location</p>
@@ -266,9 +267,9 @@
           <h4 class="modal-title">Request Service</h4>
         </div>
         <div class="modal-body">
-          <form action="" method="POST">
+          <form action="contact.php" method="POST">
             <label>Select Service</label>
-            <select class="form-control" id="sel1">
+            <select class="form-control" id="sel1" name="service">
               <option>Autobody Repairs</option>
               <option>Auto Painting</option>
               <option>Collision Repairs</option>
@@ -279,12 +280,12 @@
             <label>Your Name</label><br>
             <input type="text" class="form-control" name="name" required><br><br>
             <label>Phone</label><br>
-            <input type="number" class="form-control" name="name" required><br><br>
+            <input type="number" class="form-control" name="phone" required><br><br>
             <label>Email</label><br>
-            <input type="email" class="form-control" name="name" required><br><br>
+            <input type="email" class="form-control" name="email" required><br><br>
             <label>Service Description</label><br>
-            <textarea class="form-control" placeholder="Short description about the service you need."></textarea> <br><br>
-            <input type="submit" class="form-control" value="SUBMIT" required>
+            <textarea name="description" class="form-control" placeholder="Short description about the service you need."></textarea> <br><br>
+            <input type="submit" name="request" class="form-control" value="SUBMIT" required>
           </form>
         </div>
         <div class="modal-footer">

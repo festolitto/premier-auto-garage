@@ -38,18 +38,16 @@ html{overflow-x: hidden !important;}
     }
 .navbar-default .navbar-brand
     {
-        padding-top: 4px;
-        padding-bottom: 60px;
-    }
-.bra{
-        color: #fff;
-        margin-top: 17px;
-        font-size: 30px; 
-        font-family: 'Pacifico', cursive;
+        padding-top: 20px;
+        color: #f59730;
+        font-family: 'Major Mono Display', monospace;
     }
     .logo{
-        margin-top: 5px;
-        height: 50px;
+        height: 30px;
+        margin-top: 20px;
+        margin-right: 10px;
+        float: left;
+        margin-left: 5px;
     }
 .navbar-default .navbar-nav li a
     {
@@ -92,7 +90,14 @@ html{overflow-x: hidden !important;}
     .navbar-default{background: #000000; box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);}
     .navbar-default .navbar-nav li a{color: #ffffff;}
     .dropdown-menu>li>a{background-color: #000;}
-    .bra{font-size: 20px; color: #fff;}
+    .bra{font-size: 20px; color: #fff;
+    }
+    .navbar-default .navbar-brand{
+      font-size: 12px;
+    }
+    .logo{
+      display: none;
+    }
  }
 /* end nagivation */
 
@@ -155,7 +160,7 @@ html{overflow-x: hidden !important;}
 }
 .btn-tag-nav{
   background-color: #f59730;
-  padding: 8px;
+  padding: 8px 16px;
   border: none;
   color: #ffffff;
   margin-top: 15px;
