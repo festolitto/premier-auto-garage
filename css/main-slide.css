@@ -1,0 +1,83 @@
+/* slider */
+.carousel-inner{
+    padding:0%;
+    height: 60vh;
+  }
+  .slider1{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+   font-family: Product Sans;
+    background-image: url('https://st.automobilemag.com/uploads/sites/5/2018/10/2019-BMW-3-Series-57.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: brightness(80%);
+  }
+  .slider2{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+   font-family: Product Sans;
+    background-image: url('http://universitycollision.com/wp-content/uploads/sites/456/2015/03/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: brightness(80%);
+  }
+  .slider3{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+   font-family: Product Sans;
+    background-image: url('https://ak1.picdn.net/shutterstock/videos/15543871/thumb/1.jpg?i10c=img.resize(height:160)');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption{
+    margin-bottom: 15vh;
+    position: absolute;
+    font-family: 'Merienda', cursive;
+  }
+  .btn-tag-nav{
+    background-color: #f59730;
+    padding: 8px 16px;
+    border: none;
+    color: #ffffff;
+    margin-top: 15px;
+    font-family: 'Merienda', cursive;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  .btn-tag{
+    background-color: #00A14A;
+    padding: 8px;
+    border: none;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  .item{
+    margin-bottom: 10px;
+  }
+  .item-image{
+    width: 100%;
+  }
+  /* end slider */
