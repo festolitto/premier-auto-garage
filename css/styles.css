@@ -36,12 +36,17 @@ html{overflow-x: hidden !important;}
     margin-bottom: 0;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     }
-.navbar-default .navbar-brand
-    {
+.navbar-default .navbar-brand {
         padding-top: 20px;
         color: #f59730;
         font-family: 'Major Mono Display', monospace;
-    }
+}
+.navbar-default .navbar-brand b {
+  font-size: 30px;
+}
+@media only screen and (max-device-width:736px){
+  .navbar-default .navbar-brand b {font-size: 13px;}
+}
     .logo{
         height: 30px;
         margin-top: 20px;
