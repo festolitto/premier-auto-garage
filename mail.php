@@ -43,7 +43,7 @@
                        echo "Mail Not Sent";
                 }
                 else{
-                    echo "Mail Sent";
+                    echo "Mail Sent successfully";
                 }
 
         }
